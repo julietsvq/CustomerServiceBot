@@ -17,7 +17,7 @@ namespace CustomerServiceBot
             {
                 if (member.Id != turnContext.Activity.Recipient.Id)
                 {
-                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hello, how may I help you?"), cancellationToken);
+                    await turnContext.SendActivityAsync(MessageFactory.Text($"Hello, welcome to the Sundream hotel, how may I help you?"), cancellationToken);
                 }
             }
         }
